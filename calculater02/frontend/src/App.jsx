@@ -2,8 +2,8 @@ import {useState} from 'react'
 
 
 function App() {
-  const [a, setA] = useState(0)
-  const [b, setB] = useState(0)
+  const [a, setA] = useState("")
+  const [b, setB] = useState("")
   const [opt, setOpt] = useState('add')
   const [result, setResult] = useState(null)
   const cal=async () => {
